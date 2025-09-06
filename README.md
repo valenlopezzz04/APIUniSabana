@@ -1,7 +1,7 @@
 # APIUniSabana
 # Circuit Breaker API
 
-Este proyecto implementa el patrón de diseño **Circuit Breaker** en una API REST, utilizando Python y Flask, para mejorar la resiliencia de un servicio que depende de un buró externo. La API principal (UniSabana) se protege de los fallos continuos del buró primario, redirigiendo el tráfico a un buró secundario (fallback) cuando es necesario.
+Este trabajo implementa el patrón de diseño **Circuit Breaker** en una API REST, utilizando Python y Flask, para mejorar la resiliencia de un servicio que depende de un buró externo. La API principal (UniSabana) se protege de los fallos continuos del buró primario, redirigiendo el tráfico a un buró secundario (fallback) cuando es necesario.
 
 ## Características Principales
 
