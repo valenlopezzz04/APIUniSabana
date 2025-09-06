@@ -53,5 +53,3 @@ El proyecto está organizado en un solo archivo principal que contiene la lógic
 - **Estado `Open` y `Fallback`**: Todas las solicitudes subsecuentes serán redirigidas a `secondary.py`, y la API principal responderá con el resultado del buró secundario.
 - **Estado `Half-open`**: Al volver a encender `primary.py` y esperar 30 segundos, la próxima solicitud de `load_test.py` será una "prueba" en el estado `Half-open`. Si tiene éxito, el circuito se cerrará.
 
----
-El video "[A Quick Guide to Writing a Great Readme](https://www.youtube.com/watch?v=0h8-C-tq-o4)" proporciona consejos útiles sobre cómo estructurar un archivo README de manera efectiva para proyectos de software.
