@@ -29,6 +29,11 @@ El proyecto está organizado en un solo archivo principal que contiene la lógic
 
 ## Cómo Usarlo
 
+ **Instalar dependencias**: Asegurarse de tener Flask y requests instalados.
+    ```bash
+    pip install Flask requests
+    ```
+
   **Ejecutar los servicios**: Se deben ejecutar los servicios simulados en terminales separadas.
     - **Buró Secundario (siempre encendido):**
       `python secondary.py`
